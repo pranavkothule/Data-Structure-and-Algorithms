@@ -1,0 +1,15 @@
+def reverseArray(A,start,end):
+    if start>=end:
+        return
+    
+    A[start],A[end]=A[end],A[start]
+    reverseArray(A,start+1,end-1)
+
+A=[1,2,3,5,6,7,4]
+print("Before:")
+print(A)
+start=0
+end=len(A)-1
+reverseArray(A,start,end)
+print("After")
+print(A)
