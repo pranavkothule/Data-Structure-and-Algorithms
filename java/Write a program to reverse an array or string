@@ -1,4 +1,7 @@
 /* package codechef; // don't place package name! */
+/*
+Time Complexity : O(n)
+*/
 
 import java.util.*;
 import java.lang.*;
